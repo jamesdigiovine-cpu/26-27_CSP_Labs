@@ -25,14 +25,23 @@ def main():
     t.hideturtle()
 
     # Draw the rectangle
-    #draw_line(t, 10, 10, 10 + WIDTH, 10)
+    draw_line(t, 10, 10, 10 + WIDTH, 10)
     draw_line(t, 10 + WIDTH, 10, 10 + WIDTH, 10 + HEIGHT)
-    #draw_line(t, 10 + WIDTH, 10 + HEIGHT, 10, 10 + HEIGHT)
-    #draw_line(t, 10, 10 + HEIGHT, 10, 10)
+    draw_line(t, 10 + WIDTH, 10 + HEIGHT, 10, 10 + HEIGHT)
+    draw_line(t, 10, 10 + HEIGHT, 10, 10)
 
+    x1 = 10
+    y1 = 640
+    x2 = 990
+    y2 = 640
     # Draw bottom-right corner
+    for line in range(50):
+        draw_line(t, x1, y1, x2, y2)
+        y2 -=12
+        x1 +=20
 
-    # Draw bottom-left corner
+
+        # Draw bottom-left corner
 
     # Draw top-right corner
 
