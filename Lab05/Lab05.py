@@ -40,13 +40,15 @@ def main():
         y2 -=12
         x1 +=20
 
-    x1 =
-    y1 =
-    x2 =
-    y2 =
+    x1 =400
+    y1 =640
+    x2 =10
+    y2 =630
     # Draw bottom-left corner
     for line in range(50):
         draw_line(t, x1, y1, x2, y2)
+        y2 -=20
+        x1 +=12
 
     # Draw top-right corner
 
